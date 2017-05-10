@@ -168,7 +168,7 @@ public class TDDucts {
 		energyReinforced = addDuct(OFFSET_ENERGY + 2, false, 1, 2, "energyReinforced", Type.ENERGY, (duct, worldObj) -> new TileEnergyDuct.Reinforced(), "electrum", "electrum", REDSTONE_STILL, redstoneFluidTransparency, null, null, 0);
 		energyReinforcedEmpty = addDuct(OFFSET_ENERGY + 3, false, 1, -1, "energyReinforcedEmpty", Type.CRAFTING, STRUCTURAL, "electrum", "electrum", null, 0, null, null, 0);
 
-		energySignalum = addDuct(OFFSET_ENERGY + 4, false, 1, 3, "energySignalum", Type.ENERGY, (duct, worldObj) -> new TileEnergyDuct.Signamlum(), "signalum", "signalum", REDSTONE_STILL, redstoneFluidTransparency, null, null, 0);
+		energySignalum = addDuct(OFFSET_ENERGY + 4, false, 1, 3, "energySignalum", Type.ENERGY, (duct, worldObj) -> new TileEnergyDuct.Signalum(), "signalum", "signalum", REDSTONE_STILL, redstoneFluidTransparency, null, null, 0);
 		energySignalumEmpty = addDuct(OFFSET_ENERGY + 5, false, 1, -1, "energySignalumEmpty", Type.CRAFTING, STRUCTURAL, "signalum", "signalum", null, 0, null, null, 0);
 
 		energyResonant = addDuct(OFFSET_ENERGY + 6, false, 1, 4, "energyResonant", Type.ENERGY, (duct, worldObj) -> new TileEnergyDuct.Resonant(), "enderium", "enderium", REDSTONE_STILL, redstoneFluidTransparency, null, null, 0);
