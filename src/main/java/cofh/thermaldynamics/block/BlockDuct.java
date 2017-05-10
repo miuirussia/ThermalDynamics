@@ -474,6 +474,7 @@ public class BlockDuct extends BlockTDBase implements IBlockAppearance, IBlockCo
 		GameRegistry.registerTileEntity(TileEnergyDuct.Basic.class, "thermaldynamics.fluxduct.basic");
 		GameRegistry.registerTileEntity(TileEnergyDuct.Hardened.class, "thermaldynamics.fluxduct.hardened");
 		GameRegistry.registerTileEntity(TileEnergyDuct.Reinforced.class, "thermaldynamics.fluxduct.reinforced");
+		GameRegistry.registerTileEntity(TileEnergyDuct.Signalum.class, "thermaldynamics.fluxduct.signalum");
 		GameRegistry.registerTileEntity(TileEnergyDuct.Resonant.class, "thermaldynamics.fluxduct.resonant");
 		GameRegistry.registerTileEntity(TileEnergySuperDuct.class, "thermaldynamics.fluxduct.super");
 
