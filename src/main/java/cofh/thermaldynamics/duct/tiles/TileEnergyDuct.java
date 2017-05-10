@@ -45,9 +45,9 @@ public abstract class TileEnergyDuct extends TileGridStructureBase implements IE
 		}
 	}
 
-	public static class Signamlum extends TileEnergyDuct {
+	public static class Signalum extends TileEnergyDuct {
 
-		public Signamlum() {
+		public Signalum() {
 
 			super(TDDucts.energySignalum);
 		}
